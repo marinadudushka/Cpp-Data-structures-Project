@@ -1,0 +1,11 @@
+template <typename T>
+struct stackElement
+{
+     T data;
+     stackElement* previous;
+}
+
+template <typename T>
+class Stack
+{
+    stackElement * topPtr
