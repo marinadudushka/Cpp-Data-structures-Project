@@ -6,6 +6,7 @@ The main focus of the project is the way the player traverses the maze.
 There are two charatcters to choose from:
 * The Sorceress 
 * The Magician
+
 Both of whom have a different way of moving through the labyrinth.
 
 * The Sorceress' traversal uses A* algorithm, because she is able to "see into the future" and can find the shortest path to the end. In this case A* gives us more precise calculation of the shortest path unlike Dijkstra's Algorithm which is not always accurate.
