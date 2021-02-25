@@ -1,4 +1,13 @@
-# Data-structures-SDP-2019-2020
-Some exercises and C++ Data Structures Project 
+## Labyrinth game
+The Labyrinth is a game in which the player has to pass safely to the end of thme maze without meeting the monster.
 
-This is a project I made for my Data stuctures class. We were given projects to choose from and I chose The Labyrinth. The Labyrinth was a maze-like game which included a few types of characters all of whom had a different way of traversing the maze. The game included a file with levels, a function that checked if the level was passable(whether or not there was a path from the start to the end of the maze), three characters to choose from and a monster. I researched the different algorithms used in graph traversal and how to implement them on my matrix.
+The main focus of the project is the way the player traverses the maze.
+
+There are two charatcters to choose from:
+* The Sorceress 
+* The Magician
+Both of whom have a different way of moving through the labyrinth.
+
+* The Sorceress' traversal uses A* algorithm, because she is able to "see into the future" and can find the shortest path to the end. In this case A* gives us more precise calculation of the shortest path unlike Dijkstra's Algorithm which is not always accurate.
+
+* The Magician's traversal uses Depth First Search because the way he moves is always in one direction until he finds an obsticle.
